@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: © 2025 Nfrastack <code@nfrastack.com>
+# SPDX-FileCopyrightText: © 2026 Nfrastack <code@nfrastack.com>
 #
 # SPDX-License-Identifier: MIT
 
@@ -52,7 +52,7 @@ RUN echo "" && \
                     SOCKS_BUILD_DEPS \
                     SOCKS_RUN_DEPS \
                     && \
-    package build go && \
+    package build go buildtime && \
     clone_git_repo "${SOCKS_REPO_URL}" "${SOCKS_VERSION}" && \
     go build \
                 -ldflags " \
