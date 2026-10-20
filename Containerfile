@@ -18,7 +18,7 @@ LABEL \
         org.opencontainers.image.licenses="MIT"
 
 ARG \
-    SOCKS_VERSION="1.0.0" \
+    SOCKS_VERSION="v1.2.0" \
     SOCKS_REPO_URL="https://github.com/ariadata/go-socks5-proxy"
 
 ENV \
